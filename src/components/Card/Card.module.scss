@@ -1,0 +1,235 @@
+.card{
+    width: 100%;
+    height: 255px;
+    // border: 1px solid black;
+    display: flex;
+    border-radius:12px ;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.imgContainer{
+    width: 141px;
+    height: 103px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.description{
+    width: 60%;
+    margin-left: 50px;
+}
+
+.para1,.para2{
+    width: 100%;
+    height: 72px;
+}
+
+.para2{
+    margin-left: 20px;
+}
+
+.showMore{
+    display: flex;
+    color: blue;
+    align-items: center;
+}
+
+.showMoreIcon{
+    margin-left: 5px;
+}
+
+// .ratingContainer{
+//     width: 135px;
+//     height: 118px;
+//     // top: 347px
+//     // left: 1099px
+//     border-radius: 0px, 0px, 12px, 12px;
+//     background-color: #F3F9FF;
+
+// }
+
+// -------------------------
+
+
+
+.ratingBlock {
+    text-align: center;
+    width: 135px;
+    height: 118px;
+    // top: 347px
+    // left: 1099px
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+    background-color:#F3F9FF;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-left: 10px;
+}
+
+.rating {
+    font-size: 48px; 
+    color: #074786; 
+    width: 50px;
+    height: 48px;
+    margin-left: 30px;
+}
+
+.ratingDescription {
+    // font-size: 22px; 
+    margin-top: 10px; 
+    width: 79px;
+    height: 20px;
+    color: #074786; 
+    margin-left: 25px;
+
+}
+
+.starContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; 
+    gap: 1px;
+}
+
+// .star {
+//     width: 20px;
+//     height: 20px;
+//     background-color: gold; 
+//     margin: 0 3px; 
+// }
+
+.star{
+    color: #ffb912;// rgb(255, 255, 0);
+    background-color: none;
+    width: 20px;
+    height: 20px;
+}
+
+button{
+    width: 168px;
+    height: 48px;
+    // top: 537px;
+    // left: 1051px;
+    border-radius: 12px;
+    background-color: #1B88F4;
+    color: #F3F9FF;
+    border: none;
+    margin-top: 70px;
+    font-size: 15px;
+}
+
+.bestChoice{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 136px;
+    height: 34px;
+    margin-top: -10px;
+    margin-left: -10px;
+    background-color: #FF7724;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: #F3F9FF;
+}
+
+.cup{
+    color: #F3F9FF;
+    margin-right: 8px;
+}
+
+.cardnum{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #E1E4E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.off{
+    width: 80px;
+height: 20px;
+background-color: #edf1f5;
+}
+
+
+.paral2{
+    width: 80%;
+    height: 72px;
+    margin-left: 20px;
+    background-color: #FFF4ED;
+    ;
+}
+
+  ul {
+    list-style-type: none;
+  }
+  
+  .points {
+    display: inline-block;
+    background-color: white;
+    width: 40px;
+    height: 18px;
+    color: blue;
+    border-radius: 4px;
+
+  }
+
+  li{
+    margin-top: 2px;
+  }
+
+
+
+.keylist {
+    list-style-type: none;
+    height: 50px;
+  }
+  
+  .keylist li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .keylist li span {
+    display: inline-block;
+    height: 20px; /* Adjust the height as needed */
+    width: 20px; /* Adjust the width as needed */
+    margin-right: 10px; /* Adjust the margin as needed */
+    background-color: #FFFFFF;
+  }
+  
+  .keylist li span svg {
+    height: 100%;
+    width: auto;
+    color: blue;
+  }
+  
+
+.lastButton{
+    width: 168px;
+    height: 48px;
+    // top: 537px;
+    // left: 1051px;
+    border-radius: 12px;
+    background-color: #1B88F4;
+    color: #F3F9FF;
+    border: none;
+    margin-top: 70px;
+    font-size: 15px;
+    margin-bottom: 0;
+}
